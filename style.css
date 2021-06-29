@@ -569,6 +569,14 @@ html {
     }
 }
 @media (max-width: 400px) {
+    .home .navbar .navbar-brand h1 , .navbar-brand h1 { 
+      font-size: 2rem;
+    }
+    .home .navbar .navbar-brand img , .navbar-brand img {
+      width: 2rem;
+      height: 2rem;
+      margin-top: -0.5rem;
+    }
     .main-col2 h1::after {
         width: 10rem;
     }
@@ -585,7 +593,12 @@ html {
     .foot p {
         font-size: 0.8rem;
     }
-
+    .brand h1 {
+        color: rgba(0,0,0,0.95);
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-family: "Peachy Keen";
+    }
     /* Puzzles Page */
     .fb {
         padding: 0 3rem;
