@@ -590,6 +590,11 @@ html {
     .main-col3 p {
         margin-top: 1rem;
     }
+    .brand img {
+      width: 2rem;
+      height: 2rem;
+      margin-top: -0.5rem;
+    }
     .foot p {
         font-size: 0.8rem;
     }
