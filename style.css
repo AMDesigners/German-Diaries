@@ -335,14 +335,14 @@ html {
 }
 .contact h1 {
     display: inline-block;
-    color: rgba(0,0,0,0.95);
+    color: #ccc;
     position: relative;
 }
 .contact h1::after {
     content: '';
     width: 0%;
     height: 2px;
-    background-color: rgba(0,0,0,0.95);
+    background-color: #ccc;
     position: absolute;
     left: 0;
     bottom: -12%;
